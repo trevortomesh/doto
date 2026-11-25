@@ -1,0 +1,52 @@
+!task p-20261125-001
+title: Renew the library books
+status: next
+meta: domain: personal | owner: lumi
+due: 2026-11-28
+context: errands
+log: 2026-11-25 created
+
+!task p-20261125-002
+title: Book the dentist appointment
+status: waiting
+blocked: office has not confirmed insurance details
+context: phone
+log: 2026-11-24 created
+log: 2026-11-25 called; waiting on the office
+
+!task p-20261125-003
+title: Reply to the venue about the spring talk
+status: next
+email: https://mail.example.com/message/abc123
+sender: events@example.com
+subject: Spring talk logistics
+received: 2026-11-24
+log: 2026-11-25 created from email
+
+!task p-20261125-004
+title: Submit conference metadata
+status: scheduled
+project: Paper Revival | area: Research
+due: 2027-01-04
+clip: Paper Revival
+log: 2026-11-25 created
+
+!task p-20261125-005
+title: Submit the full paper
+status: scheduled
+project: Paper Revival | area: Research
+due: 2027-01-11
+clip: Paper Revival
+log: 2026-11-25 created
+
+!task p-20261125-006
+title: Learn to sail
+status: someday
+tags: fun, later
+log: 2026-11-25 created
+
+!task p-20261125-007
+title: Fix the kitchen tap
+status: done | domain: personal | owner: lumi
+project: Household | area: Kitchen
+log: 2026-11-20 created ; 2026-11-23 completed
